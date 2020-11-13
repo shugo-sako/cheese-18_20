@@ -1,0 +1,310 @@
+/* ここから下に記載していく */
+body{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_nav li{
+    display: flex;
+    float: left;
+    font-size: 16px;
+    padding: 50px 20px;
+
+}
+
+
+.mainvisual{
+    height: 400px;
+    background-image: url(../img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mainvisual_title{
+
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top:200px;
+}
+
+.mainvisual_subtitle{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.about{
+    text-align: center;
+}
+
+
+.about_title{
+    font-size: 24px;
+    padding-top:60px ;
+    padding-bottom: 30px;
+    color: burlywood;
+    font-weight: bold;
+}
+.about_subtitle{
+    font-size: 18px;
+    padding-bottom: 60px;
+
+}
+
+.about_text{
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.imgBox{
+ display: flex;
+ margin-bottom: 60px;
+
+}
+.imgBox p img{
+    width: 100%;
+}
+
+.course{
+    margin:60px 0;
+}
+.course_title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.course_text{
+
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.8px;
+}
+
+.course_area{
+    display: flex;
+    
+}
+
+
+.course_area:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+
+.text-box{
+    background-color:#fafafa;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding:120px 0 120px 50px;
+}
+
+.text_title{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    
+}
+.image-box{
+    width: 50%;
+    height: auto;
+    display: flex;
+
+}
+
+
+
+.newsBox{
+    margin:60px auto; 
+    text-align: center;
+}
+
+
+.newsBox_title{
+    font-size: 24px;
+    font-weight: bold;
+    color: crimson;
+    margin-bottom: 20px;
+
+}
+
+.newsBox_subtitle{
+
+    margin-bottom: 60px;
+}
+.news-list_item{
+    width: 300px;
+    margin-top: 60px;
+ }
+
+ul.news-list{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.news-list_day{
+    margin-top:30px ;
+    margin-bottom: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.news-list_text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.hover1 {
+    display: inline-block;
+    margin: 60px 0;
+    width: 300px;
+    height: 60px;
+    background-color: yellow;
+    color:black;
+    font-weight: solid;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .hover1:hover {
+    opacity: 0.6;
+  }
+
+.access{
+  text-align: center;
+  background-color:#fafafa;
+}
+
+.access_title{
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;    
+}
+.access_subtitle{
+    padding-bottom: 60px;
+}
+#access_map{
+    padding-bottom: 60px;
+}
+
+
+
+.access_text{
+    
+    padding:60px 0;
+}
+
+li{
+    padding-bottom: 30px;
+}
+
+.contact-form{
+    margin-top: 36px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    text-align: center;
+    font-family: cursive;
+}
+.contact-form_title{
+    font-weight: bold;
+    font-size: 24px;
+    padding:60px 0 30px 0;
+    
+
+}
+.contact-form_subtitle{
+    padding-bottom: 60px ;
+    font-size: 16px;
+}
+.contact-form_text1{
+    padding-bottom: 30px;
+}
+.contact-form_text2{
+    padding-bottom: 70px;
+}
+
+.form-table{
+   width: 640px;
+   margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.form-table th,.form-table td {
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+  padding: 20px;
+}
+.kikkake{
+    padding: 24px;
+}
+
+ 
+.form-table th {
+  background: white;
+  padding-left: 16px;
+  padding-right: 64px;
+  position: relative;
+  text-align: left;
+  width: 240px;
+  height: 36px;
+}
+
+.form-table td{
+ width: 400px;
+}
+
+.button {
+    display       : inline-block;
+    width: 300px;
+    height: 60px;
+    margin: 30px auto 140px;
+    border-radius : 5%;          
+    font-size     : 18pt;        
+    text-align    : center;     
+    cursor        : pointer;    
+    padding       : 12px 12px;   
+    background-color: yellow;
+    color         : black;     
+    line-height   : 1em;         
+    transition    : .3s;         
+    border        : 2px solid #000066;    
+    
+  }
+  .button:hover {
+    box-shadow    : none;       
+    color         : #000066;    
+    background    : #ffffff;    
+  }
+  .send-button{
+      text-align: center;
+  }
+
+
+.footer{
+    background-color: #707070;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
